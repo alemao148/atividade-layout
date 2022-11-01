@@ -1,0 +1,164 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "nav header"
+    "nav main "
+    "nav footer";
+    grid-template-rows: 150px 1fr 150px;
+    grid-template-columns: 250px 2fr;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    grid-area: nav;
+    background-color: green;
+    
+}
+
+.red_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.red_div1{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    width: 80px;
+    height: 80px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: header;
+    background-color: hotpink;
+}
+
+.red_2{
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+.red_div2{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    width: 80px;
+    height: 80px;
+}
+
+main{
+    display: flex;
+    grid-area: main;
+    background-color: khaki;
+}
+
+.red_6{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+
+}
+.red_div6{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    width: 80px;
+    height: 80px;
+
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    align-items: center;
+    background-color: seagreen;
+    width: 20%;
+}
+
+
+.red_div3{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    width: 80px;
+    height: 80px;
+
+}
+
+.red_3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.red_4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    width: 30%;
+
+}
+.red_5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+
+}
+
+
+article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    width: 80%;
+    background-color: sienna;
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+    background-color: seagreen;
+}
+
+.red_7{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+
+}
+.red_div7{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    width: 80px;
+    height: 80px;
+
+}
